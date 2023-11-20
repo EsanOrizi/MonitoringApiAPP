@@ -19,7 +19,7 @@ namespace MonitoringApi.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            throw new Exception("some random exception");
         }
 
         // GET api/<UsersController>/5
