@@ -26,6 +26,7 @@ namespace MonitoringApi.Controllers
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
+            // Logging
             //if (id < 0 || id > 100) {
             //    logger.LogWarning("the id of {Id} was invallid", id);
             //    return BadRequest("Index was out of range");
